@@ -13,7 +13,7 @@ def get_requirements(file_path:str) -> List[str]:
         if hypen in requirements:
             requirements.remove(hypen)
             
-            
+    return requirements
 
 setup(
 name='cloud',
